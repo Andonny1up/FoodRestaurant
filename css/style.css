@@ -402,6 +402,26 @@ header .navbar a:hover{
 .order .row form .btn:hover{
     background: var(--red);
 }
+/*footer*/
+footer{
+    background: black;
+    text-align: center;
+}
+footer .share{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+footer .credit{
+    padding: 2rem 1rem;
+    color: var(--white);
+    font-weight: normal;
+    font-size: 2rem;
+}
+footer .credit span{
+    color: var(--red);
+}
 /*animation*/
 @keyframes float{
     0%, 100%{
